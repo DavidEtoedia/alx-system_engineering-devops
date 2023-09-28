@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a1 | awk '{if ($1 == "." || $1 == "..") {print $1; } else if ($1{$1 == "/"}) {print $1"/";} else {print $1;}}' | sort -df
+ls -Ap1 | sed 's/\(^\.\{1,2\}$\)\|\(\/\)/\1\n/g' | tr '\n' ',' | sed 's/\(.\+\),/\1\n/'
