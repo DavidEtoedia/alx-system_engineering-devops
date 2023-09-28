@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la . .. /boot | sort -k1,1 -t ' '
+for d in . .. /boot; do ls -la $d; done
