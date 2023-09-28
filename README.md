@@ -1,1 +1,4 @@
-initial readme
+#!/bin/bash
+
+#Repository Description
+decription does here
