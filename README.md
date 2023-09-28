@@ -1,4 +1,2 @@
-#!/bin/bash
+#0x00. Shell, basics  Description
 
-#Repository Description
-decription does here
